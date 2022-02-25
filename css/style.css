@@ -7444,8 +7444,7 @@ img{
 	background-image: -o-linear-gradient(top, #FF0301 0%, #FE4A1B 100%);
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FF0301), color-stop(100, #FE4A1B));
 	background-image: -webkit-linear-gradient(top, #FF0301 0%, #FE4A1B 100%);
-	background-image: linear-gradient(to bottom, #FF0301 0%, #FE4A1B 100%);
-}
+	background-image: linear-gradient(to bottom, #63e89e 0%, #62abc4 100%);}
 
 .gallery-block .inner-box:hover .overlay-box{
 	opacity:1;
