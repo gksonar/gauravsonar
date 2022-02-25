@@ -7404,20 +7404,22 @@ img{
 	width:100%;
 }
 .gallery-block .title{
-	font-family: 'Cabin', sans-serif;
-    font-size: 22px;
-    color: black;
-    line-height: 1.7em;
-    font-weight: 800;
-        text-align: center;
-    
-}
-.gallery-block .text{
-	font-family: 'Cabin', sans-serif;
+        font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: black;
     line-height: 1.7em;
-    font-weight: 400;
+    font-weight: 600;
+    text-align: cente
+    
+}
+.gallery-block .text{
+	font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    
+    position: relative;
+    color: #777777;
+    font-size: 16px;
+    line-height: 1.7em;
     
 }
 .gallery-block .overlay-box{

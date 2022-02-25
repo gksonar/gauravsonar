@@ -234,6 +234,16 @@
 		top:0px;
 	}
 	
+
+		.gallery-block{
+			overflow:hidden;	
+		}
+		
+		.gallery-block .inner-box, .content{
+			width: 100%;
+		}
+		
+	
 	.team-block-two .inner-box .image:before,
 	.seo-section-three .content-column .seo-list li br,
 	.counter-section-three .counter-column .inner-column .sec-title h2 br,
