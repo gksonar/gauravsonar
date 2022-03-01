@@ -1,17 +1,27 @@
 {
-    "name": "gaurav Sonar",
-    "short_name": "gaurav",
-    "theme_color": "#ffcbe4",
-    "background_color": "#fa99ca",
+    "name":"Vehicle Document Identification",
+    "short_name":"VDIS",
+    "theme_color": "#28166f",
+    "background_color":"#f4f3ef",
     "display": "standalone",
-    "scope": "/",
-    "start_url": "https://gauravsonar.netlify.app/",
-    "description": "Blog and Resume for gaurav ",
-    "orientation": "any",
+    "orientation": "portrait",
+    "prefer_related_applications": false,
+    "Scope": ".",    
+     "start_url":"https:gauravsonar.netlify.app/",
     "icons": [
-        {
-            "src": "images/favicon.png",
-            "sizes": "1024x1024"
-        }
-    ]
-}
+      {
+        "src": "/images/LOGO72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/LOGO144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      }
+     
+     
+  ]  
+  
+  }
+  
