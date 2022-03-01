@@ -7,7 +7,7 @@
     "orientation": "portrait",
     "prefer_related_applications": false,
     "Scope": ".",    
-    "id":"/?homescreen=1",
+    
      "start_url":"https:gauravsonar.netlify.app/",
     "icons": [
       {
