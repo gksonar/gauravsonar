@@ -17,7 +17,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
     <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+    <link rel="manifest" href="/manifest.json">
   </head>
+  <style>
+
+   
+    .fa:hover {
+ 
+    color: green;
+    border-radius: 30%;
+    width:100%;
+    height:100% ;
+    transform: scale(1.5);
+    opacity: 0.7;
+
+
+    }
+  </style>
+  <script>
+    if (!navigator.serviceWorker.controller) {
+        navigator.serviceWorker.register("/sw.js").then(function(reg) {
+            console.log("Service worker has been registered for scope: " + reg.scope);
+        });
+    }
+   </script>
   <body class="hidden-bar-wrapper">
     <div class="page-wrapper">
       <!-- Preloader -->
@@ -214,14 +237,14 @@
                       </div>
                     </div>
 
-                    <!-- <div class="gallery-block">
+                    <div class="gallery-block">
                       <div class="inner-box">
                         <figure class="image-box">                        
                           <div class="card" style="padding: 15px">                        
                           <img src="images/project/eps.gif" alt="" />
-                          <div class="title">Employee Payroll System</div>
+                          <center><div class="title">Employee Payroll System</div>
                           <div class="text" style="padding: 5px">This project Develop Using python programming, this project was design using Graphical User Interface (GUI), this project is easy to manipulate and understand by the users. For Backend use Mysql Database</div>
-                          </div>
+                          </div></center>
                           <div class="overlay-box">
                             <div class="overlay-inner">
                               <div class="content">
@@ -238,10 +261,10 @@
                           </div>
                         </figure>
                       </div>
-                    </div> -->
+                    </div>
 
 
-                      <div class="gallery-block">
+                      <!-- <div class="gallery-block">
                       <div class="inner-box">
                         <figure class="image-box">                        
                           <div class="card" style="padding: 15px">                        
@@ -254,18 +277,18 @@
                               <div class="content">
                                 <h4>
                                   <a href="https://github.com/gksonar/Supermarket/tree/master/Supermarket">
-                                    Shop payroll management
+                                    Shop Management System
                                   </a>
                                 </h4>
-                                <div class="category">A Python and Mysql Project.</div>
-                                <!-- <a href="http://vdis.lovestoblog.com/" class="link"><span class="icon fa fa-link"></span></a> -->
+                                <div class="category">A Java and Java JDBC with mysql-j-connector Project.</div>
+                                <a href="http://vdis.lovestoblog.com/" class="link"><span class="icon fa fa-link"></span></a> 
                                 <a href="https://github.com/gksonar/Supermarket/tree/master/Supermarket"  class="link"><span class="icon fa fa-code"></span></a>
                               </div>
                             </div>
                           </div>
                         </figure>
                       </div>
-                    </div>
+                    </div> -->
 
                     
                   
@@ -290,7 +313,7 @@
                   <div class="text">Get in Touch</div>
                   <!-- Social Box -->
                   <ul class="social-box">
-                    <li><a href="https://wa.me/+919960141250" target="__blank" class="fa fa-whatsapp"></a></li>
+                <li><a href="https://wa.me/+919960141250" target="__blank" class="fa fa-whatsapp "></a></li>
                     <li><a href="mailto:gauravsonar8180@gmail.com" target="__blank" class="fa fa-envelope"></a></li>
                     <li><a href="https://www.linkedin.com/in/gaurav-sonar-aaa89a159/" target="__blank" class="fa fa-linkedin"></a></li>
                     <li><a href="https://twitter.com/GauravSonarr" target="__blank" class="fa fa-twitter"></a></li>

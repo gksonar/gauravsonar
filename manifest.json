@@ -1,0 +1,17 @@
+{
+    "name": "gaurav Sonar",
+    "short_name": "gaurav",
+    "theme_color": "#ffcbe4",
+    "background_color": "#fa99ca",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "https://gauravsonar.netlify.app/",
+    "description": "Blog and Resume for gaurav ",
+    "orientation": "any",
+    "icons": [
+        {
+            "src": "images/favicon.png",
+            "sizes": "1024x1024"
+        }
+    ]
+}
