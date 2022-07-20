@@ -6431,8 +6431,8 @@ img{
 
 .main-footer.style-two{
 	background-image:none;
-	margin-top:50px;
-	background:url(../images/background/3.png) repeat-x;
+	margin-top:85px;
+	color:#000000
 }
 
 .main-footer.style-two::before{
@@ -6485,7 +6485,7 @@ img{
 
 .main-footer .logo-widget .text{
 	position:relative;
-	color:#ffffff;
+	color:#000000;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.8em;
@@ -6504,8 +6504,8 @@ img{
 
 .main-footer .logo-widget .social-box li a{
 	position:relative;
-	color:#ffffff;
-	font-size:16px;
+	color:#000000;
+	font-size:20px;
 }
 
 /* List Link */
@@ -12560,3 +12560,15 @@ img{
 	text-align:right;
 }
 
+.flex-center{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.res-container{
+	max-width: 33%;
+	min-width: 33%;
+	padding: 30px;
+}

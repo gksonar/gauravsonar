@@ -237,6 +237,8 @@
 
 		.gallery-block{
 			overflow:hidden;	
+			max-width: fit-content;
+    margin-bottom: auto;
 		}
 		
 		.gallery-block .inner-box, .content{

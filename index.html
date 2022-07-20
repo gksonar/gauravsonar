@@ -34,13 +34,13 @@
 
     }
   </style>
-  <script>
+  <!-- <script>
     if (!navigator.serviceWorker.controller) {
         navigator.serviceWorker.register("/sw.js").then(function(reg) {
             console.log("Service worker has been registered for scope: " + reg.scope);
         });
     }
-   </script>
+   </script> -->
   <body class="hidden-bar-wrapper">
     <div class="page-wrapper">
       <!-- Preloader -->
@@ -86,12 +86,13 @@
                         <div class="text">
                          <h3 style="color: #1b6bfb;">Web Developer</h3> <br>
                          Third Year student currently pursuing my BTech with a specialization in Computer Engineering ,from VIIT Pune                          
-                        </div>  
+                        </div> 
+                         
                         <div class="btns-box ">
                           <a href="#aboutme" class=" theme-btn btn-style-five"><span class="txt">Know Me</span></a>
                           <a href="images/Gaurav_Sonar_VIIT.pdf" target="__blank" class="theme-btn btn-style-three"><span class="txt">Download CV</span></a>
                         </div>
-                        </center>
+                      </center>
                     </div>
                 </div>
 
@@ -174,6 +175,7 @@
     </section>
 
 
+    
           
             <section class="related-projects" id="projects">
               <div class="auto-container">
@@ -182,9 +184,35 @@
                     <div class="title">More Project</div>
                     <h2>My Project</h2>
                   </div>
-                  <div class="three-item-carousel owl-carousel owl-theme" id="abc">
+                  <section class="flex-center" style="margin-bottom: 7%;">
+                    <div class="gallery-block res-container">
+                      <div class="inner-box">
+                        <figure class="image-box">                        
+                          <div class="card" style="padding: 15px">                        
+                          <img src="images/project/vdis.gif" alt="" />
+                          <center><div class="title">Vehicle Document Identification </div>
+                          <div class="text" style="padding: 5px">Vehicle Document Identification System is used for Validating the Vehicle Document and Charges the Fine for Simplifying the Traffic Police Work.</div>
+                          </div></center>
+                          <div class="overlay-box">
+                            <div class="overlay-inner">
+                              <div class="content">
+                                <h4>
+                                  <a href="https://github.com/gksonar/VDIS">
+                                    Vehicle Document <br />
+                                    Identification System
+                                  </a>
+                                </h4>
+                                <div class="category">A Web Based Project</div>
+                                 <!-- <a href="http://vdis.lovestoblog.com/" target="__blank" class="link"><span class="icon fa fa-link"></span></a>  -->
+                                <a href="https://github.com/gksonar/VDIS"  target="__blank" class="link"><span class="icon fa fa-code"></span></a>
+                              </div>
+                            </div>
+                          </div>
+                        </figure>
+                      </div>
+                    </div>
                     
-                    <div class="gallery-block">
+                    <div class="gallery-block res-container">
                       <div class="inner-box">
                         <figure class="image-box">                        
                           <div class="card" style="padding: 15px">                        
@@ -209,8 +237,38 @@
                         </figure>
                       </div>
                     </div>
+                    
+                    <div class="gallery-block res-container">
+                    <div class="inner-box">
+                      <figure class="image-box">                        
+                        <div class="card" style="padding: 15px">                        
+                        <img src="images/project/eps.gif" alt="" />
+                        <center><div class="title">Employee Payroll System</div>
+                        <div class="text" style="padding: 5px">This project Develop Using python, this project was design using GUI, this project is easy to manipulate and understand by the users.For Backend use Mysql Database</div>
+                        </div></center>
+                        <div class="overlay-box">
+                          <div class="overlay-inner">
+                            <div class="content">
+                              <h4>
+                                <a href="projects-detail.html">
+                                  Employee payroll management
+                                </a>
+                              </h4>
+                              <div class="category">A Python and Mysql Project.</div>
+                            
+                              <a href="https://github.com/gksonar/employee_payroll_management"  class="link"><span class="icon fa fa-code"></span></a>
+                            </div>
+                          </div>
+                        </div>
+                      </figure>
+                    </div>
+                  </div>
 
-                    <div class="gallery-block">
+
+
+                  </section>
+                  <section class="flex-center">
+                    <div class="gallery-block res-container">
                       <div class="inner-box">
                         <figure class="image-box">                        
                           <div class="card" style="padding: 15px">                        
@@ -228,7 +286,6 @@
                                   </a>
                                 </h4>
                                 <div class="category">A Web Based Project</div>
-                                 <a href="http://vdis.lovestoblog.com/" target="__blank" class="link"><span class="icon fa fa-link"></span></a> 
                                 <a href="https://github.com/gksonar/VDIS"  target="__blank" class="link"><span class="icon fa fa-code"></span></a>
                               </div>
                             </div>
@@ -237,34 +294,8 @@
                       </div>
                     </div>
 
-                    <div class="gallery-block">
-                      <div class="inner-box">
-                        <figure class="image-box">                        
-                          <div class="card" style="padding: 15px">                        
-                          <img src="images/project/eps.gif" alt="" />
-                          <center><div class="title">Employee Payroll System</div>
-                          <div class="text" style="padding: 5px">This project Develop Using python programming, this project was design using Graphical User Interface (GUI), this project is easy to manipulate and understand by the users. For Backend use Mysql Database</div>
-                          </div></center>
-                          <div class="overlay-box">
-                            <div class="overlay-inner">
-                              <div class="content">
-                                <h4>
-                                  <a href="projects-detail.html">
-                                    Employee payroll management
-                                  </a>
-                                </h4>
-                                <div class="category">A Python and Mysql Project.</div>
-                              
-                                <a href="https://github.com/gksonar/employee_payroll_management"  class="link"><span class="icon fa fa-code"></span></a>
-                              </div>
-                            </div>
-                          </div>
-                        </figure>
-                      </div>
-                    </div>
 
-
-                      <!-- <div class="gallery-block">
+                    <!-- <div class="gallery-block res-container">
                       <div class="inner-box">
                         <figure class="image-box">                        
                           <div class="card" style="padding: 15px">                        
@@ -289,26 +320,19 @@
                         </figure>
                       </div>
                     </div> -->
-
                     
-                  
-                  </div>
-                  <div class="owl-nav"><div class="owl-prev"><span class="fa fa-angle-left"></span></div>
-                  <div class="owl-next"><span class="fa fa-angle-right"></span></div></div>
-                  <!-- <center><a href="Projects.html" target="__blank" class="theme-btn btn-style-one"><span class="txt">View All</span></a></center> -->
+                    
+                    <!--  -->
+                    
+                    
+                  </section>
                 </div>
               </div>
             </section>
 
- <footer class="main-footer style-two" id="contact">
-            <div class="auto-container">
-            <div class="widgets-section">
-            <div class="row clearfix">                 
-                <div class="big-column col-lg-6 col-md-12 col-sm-12"></div> 
-                <div class="big-column col-lg-6 col-md-12 col-sm-12">
-                <div class="row clearfix">       
-                <div class="footer-column col-lg-5 col-md-6 col-sm-12"></div>  
-                <div class="footer-column col-lg-7 col-md-6 col-sm-12">
+          <footer class="main-footer style-two" id="contact"  style="background-color:#f5f5efb6;">
+            <center style="margin-top: 2%;">
+              <div class="auto-container"">
                 <div class="footer-widget logo-widget">                  
                   <div class="text">Get in Touch</div>
                   <!-- Social Box -->
@@ -323,11 +347,9 @@
                   </ul>
                 </div>
                 </div>
-              </div>
-             </div>
-          </div>
-          </div>
-          </div>
+            </div>
+            
+            </center>
           </footer>
 
 
